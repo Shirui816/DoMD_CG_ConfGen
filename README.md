@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.jpg" alt="DoMD" height="150"/>
+  <img src="domd.jpg" alt="DoMD" height="150"/>
 </div>
 ## DoMD_CG_ConfGen
 Arbitrary configuration generator based on self-avoiding random walk method
