@@ -1,4 +1,4 @@
-<pre align='center'>
+<pre align='center' style="background-color: #fff; color: #000; padding: 10px;">
         ██████                                                                            
       █▒▒▒▒▒▒▒▒▒▓▒████                                           ████████████████████
      ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓██              ██▓▓▓▓▓▓▓▓▓▓▒█         ██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒ ▓  ▓██     
