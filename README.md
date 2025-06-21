@@ -29,7 +29,9 @@
 </pre>
 
 ## DoMD_CG_ConfGen
-Arbitrary configuration generator based on self-avoiding random walk method
-The system contains a series of molecules, i.e., nx.Graph objects
+Arbitrary configuration generator based on self-avoiding random walk method.
+
+The system contains a series of molecules, i.e., nx.Graph objects.
+
 Random walk coordinates are generated based on edges from edge_dfs, for each molecule,
 a node with given coordinate is treated as the source node for the dfs transversal.
