@@ -2,7 +2,7 @@ import networkx as nx
 import numba as nb
 import numpy as np
 
-from domd_cgbuilder.cg_mol import CGMol
+from cg_mol import CGMol
 
 
 @nb.jit(nopython=True, nogil=True)
