@@ -108,7 +108,7 @@ def embed_system(system: list[CGMol], box, rc=1):
         if s_node is not None:
             cl.add_x(mol.nodes[s_node]['x'])
 
-    # 1st: Add all possible source node coordinates in the cell-list
+    # 1st: Add all possible source node coordinates to the cell-list
     # the source node choice algorithm is as same as below, making sure
     # that even multiple nodes has given position, only the last is chosen
 
