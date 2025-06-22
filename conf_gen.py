@@ -108,7 +108,7 @@ def embed_system(system: list[CGMol], box, rc=1):
         if s_node is not None:
             cl.add_x(mol.nodes[s_node]['x'])
 
-    # 1st: Add all possible source node coordinates to the cell-list
+    # 1st: Add all possible source node coordinates in the cell-list
     # the source node choice algorithm is as same as below, making sure
     # that even multiple nodes has given position, only the last is chosen
 
@@ -119,7 +119,12 @@ def embed_system(system: list[CGMol], box, rc=1):
                 s_node = bead
         # the source bead is the bead with given coordinate
         # only one for each molecule, for Brownian bridge is
-        # too f**king difficult for generating arbitrary graph.
+        # too f**king difficult for generating arbitrary graph:
+        # The Brownian bridge can be approximated with a center-bias
+        # method followed by a spring relaxation
+        # for example, 1-2-3-4-5 with anchored 1, 3, 5, when generate 2 from 1
+        # (or from 3), the random vector of 1-2 should take a bias from the position
+        # of 3 (i.e. the 1-2 towards 3) to ensure a "not too diverged" 2-3
         for edge in nx.edge_dfs(mol, source=s_node):
             ip, jp = edge
             if mol.nodes[ip]['x'] is None:
