@@ -24,6 +24,7 @@
     █▓▓▓▓▓▓▓▓▓█████████ ██▓▓▓▓▓▓▓▓▒▒▒▓▓█████▓▓▓▓▓▓▓▓▓▓▓▓█    █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██           
       █████████           ██▓▓▓▓█▓▓▓█████▓▓▓▓▓▓▓▓▓▓▓▓▓██      ██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██             
 
+
 ## DoMD_CG_ConfGen
 Arbitrary configuration generator based on self-avoiding random walk method.
 
